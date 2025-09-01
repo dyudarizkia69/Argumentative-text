@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Teks Argumentatif (Argumentative Text)</title>
+    <style>
+        /* CSS for Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #eef2f5;
+            padding-bottom: 10px;
+        }
+        h3 {
+            color: #007bff;
+        }
+        .intro {
+            background-color: #eef7ff;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid #007bff;
+            margin-bottom: 20px;
+        }
+        details {
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        summary {
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 15px;
+            cursor: pointer;
+            outline: none;
+            color: #333;
+            background-color: #eef2f5;
+            border-radius: 8px 8px 0 0;
+            position: relative;
+        }
+        details[open] > summary {
+            background-color: #007bff;
+            color: white;
+        }
+        summary::after {
+            content: '▼';
+            position: absolute;
+            right: 20px;
+            transition: transform 0.2s;
+        }
+        details[open] summary::after {
+            transform: rotate(180deg);
+        }
+        .content {
+            padding: 20px;
+        }
+        .bilingual-p {
+            margin-bottom: 10px;
+        }
+        .bilingual-p .eng {
+            font-style: italic;
+            color: #555;
+        }
+        .example-box {
+            background-color: #fefefe;
+            border: 1px dashed #ccc;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .example-box p {
+            margin: 0;
+        }
+        .analysis-text {
+            background-color: #fffde7;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            font-style: italic;
+        }
+        .answer-reveal summary {
+            font-size: 0.9em;
+            font-weight: normal;
+            background-color: #d4edda;
+            color: #155724;
+            border-radius: 5px;
+        }
+        .answer-reveal .content {
+            padding: 10px;
+            font-size: 0.9em;
+            background-color: #f1f8e9;
+            border-radius: 0 0 5px 5px;
+        }
+        .quiz-question {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        .quiz-options label {
+            display: block;
+            margin-bottom: 8px;
+            padding: 10px;
+            background: #f1f1f1;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .quiz-options label:hover {
+            background: #e1e1e1;
+        }
+        .quiz-button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            font-size: 1em;
+            font-weight: bold;
+            color: white;
+            background-color: #28a745;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .quiz-button:hover {
+            background-color: #218838;
+        }
+        #quiz-result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Argumentative Text Guide for Students 🚀</h1>
+        <p class="intro">
+            <b>(ID)</b> Panduan ini akan membantumu memahami apa itu teks argumentatif dengan cara yang mudah dan seru! <br>
+            <b>(EN)</b> <i>This guide will help you understand what an argumentative text is in an easy and fun way!</i>
+        </p>
+
+        <!-- Section 1: Definition -->
+        <details>
+            <summary>Apa Itu Teks Argumentatif? / What is an Argumentative Text?</summary>
+            <div class="content">
+                <p class="bilingual-p">
+                    <b>(ID)</b> Pernahkah kamu mencoba meyakinkan temanmu kalau tim sepak bola favoritmu adalah yang terbaik? Kamu pasti memberikan banyak alasan, kan? Nah, itulah inti dari teks argumentatif! Tujuannya adalah untuk **membujuk (persuade)** pembaca agar setuju dengan pendapatmu.
+                    <br>
+                    <b>(EN)</b> <i>Have you ever tried to convince your friend that your favorite football team is the best? You must have given many reasons, right? Well, that's the core of an argumentative text! Its purpose is to **persuade** the reader to agree with your opinion.</i>
+                </p>
+            </div>
+        </details>
+
+        <!-- Section 2: Structure -->
+        <details>
+            <summary>Struktur Teks (Dengan Contoh) / Text Structure (With Examples) 🏛️</summary>
+            <div class="content">
+                <p><b>(ID)</b> Bayangkan kamu adalah seorang pengacara. Ini bagian-bagian "kasus" yang harus kamu bangun:</p>
+                <p><b>(EN)</b> <i>Imagine you are a lawyer. These are the parts of the "case" you need to build:</i></p>
+                
+                <h3>1. Thesis (Your Main Idea / Ide Utama Kamu)</h3>
+                <p class="bilingual-p">
+                    <b>(ID)</b> Ini adalah paragraf pembuka yang menyatakan pendapat utamamu.
+                    <br>
+                    <b>(EN)</b> <i>This is the opening paragraph that states your main opinion.</i>
+                </p>
+                <div class="example-box">
+                    <p><b>Contoh / Example:</b></p>
+                    <p><i>"Many students feel that homework should be reduced. I believe this is true because too much homework can cause stress and takes away time for other important activities."</i></p>
+                </div>
+
+                <h3>2. Arguments (Your Reasons & Evidence / Alasan & Bukti Kamu)</h3>
+                <p class="bilingual-p">
+                    <b>(ID)</b> Ini adalah inti dari tulisanmu. Berikan beberapa alasan kuat yang didukung oleh contoh untuk meyakinkan pembaca.
+                    <br>
+                    <b>(EN)</b> <i>This is the core of your text. Give several strong reasons supported by examples to convince the reader.</i>
+                </p>
+                <div class="example-box">
+                    <p><b>Contoh / Example:</b></p>
+                    <p><i>"First, a lot of homework often leads to stress and burnout. Students feel tired and cannot focus in class the next day. It reduces their time for family, hobbies, and rest."</i></p>
+                </div>
+
+                <h3>3. Conclusion (The Final Statement / Kesimpulan Akhir)</h3>
+                <p class="bilingual-p">
+                    <b>(ID)</b> Ini adalah paragraf penutup. Ulangi lagi pendapat utamamu dan rangkum alasan-alasan terkuatmu.
+                    <br>
+                    <b>(EN)</b> <i>This is the closing paragraph. Restate your main opinion and summarize your strongest reasons.</i>
+                </p>
+                <div class="example-box">
+                    <p><b>Contoh / Example:</b></p>
+                    <p><i>"In conclusion, by giving less homework, schools can help students to be healthier and happier. It is important to find a good balance between study and personal life."</i></p>
+                </div>
+            </div>
+        </details>
+        
+        <!-- Section 3: Analysis -->
+        <details>
+            <summary>Yuk, Analisis Teks Bersama! / Let's Analyze a Text Together! ✍️</summary>
+            <div class="content">
+                <p><b>(ID)</b> Mari kita bedah teks sederhana tentang E-Money ini dan temukan strukturnya.</p>
+                <p><b>(EN)</b> <i>Let's break down this simple text about E-Money and find its structure.</i></p>
+
+                <hr>
+                
+                <h3>Paragraf 1</h3>
+                <div class="analysis-text">
+                    <p>Today, many people use e-money like GoPay, OVO, or ShopeePay. We can buy food, pay for transport, and shop online easily. But, some people still like to use cash. So, is e-money really better than cash? To answer this, we should look at the good sides and the bad sides of using e-money.</p>
+                </div>
+                <p><b>(ID)</b> Menurutmu, paragraf ini bagian apa? <br><b>(EN)</b> <i>In your opinion, what part of the text is this?</i></p>
+                <details class="answer-reveal">
+                    <summary>Klik di sini untuk lihat jawaban / Click here to see the answer</summary>
+                    <div class="content">
+                        <b>Jawaban: Thesis</b><br>
+                        <b>(ID)</b> Karena paragraf ini memperkenalkan topik (e-money vs cash) dan menyatakan apa yang akan dibahas (sisi baik dan buruk).<br>
+                        <b>(EN)</b> <i>Because this paragraph introduces the topic (e-money vs cash) and states what will be discussed (the good and bad sides).</i>
+                    </div>
+                </details>
+
+                <h3>Paragraf 2</h3>
+                <div class="analysis-text">
+                    <p>The main reason people like e-money is because it is very convenient. First, you do not need to carry a lot of cash in your wallet. You only need your phone. Second, transactions are very fast. You just scan a QR code and the payment is done. You also don't need to worry about having the exact amount of money or waiting for change.</p>
+                </div>
+                <p><b>(ID)</b> Kalau paragraf ini bagian apa? <br><b>(EN)</b> <i>What about this paragraph?</i></p>
+                <details class="answer-reveal">
+                    <summary>Klik di sini untuk lihat jawaban / Click here to see the answer</summary>
+                    <div class="content">
+                        <b>Jawaban: Argument (Argument For / Pro)</b><br>
+                        <b>(ID)</b> Karena paragraf ini memberikan alasan-alasan mengapa e-money itu baik (praktis, cepat, tidak perlu uang pas).<br>
+                        <b>(EN)</b> <i>Because this paragraph gives reasons why e-money is good (convenient, fast, no need for exact change).</i>
+                    </div>
+                </details>
+
+                <h3>Paragraf 3</h3>
+                <div class="analysis-text">
+                    <p>However, e-money also has some problems. First, you always need an internet connection and your phone must have battery. If your phone dies or there is no signal, you cannot pay. Second, there is a risk from hackers. Bad people can try to steal the money from your e-wallet balance. Finally, some people feel they spend more money with e-money because they don't see the physical cash leaving their hands.</p>
+                </div>
+                <p><b>(ID)</b> Paragraf ketiga ini bagian apa? <br><b>(EN)</b> <i>What part is this third paragraph?</i></p>
+                <details class="answer-reveal">
+                    <summary>Klik di sini untuk lihat jawaban / Click here to see the answer</summary>
+                    <div class="content">
+                        <b>Jawaban: Argument (Argument Against / Kontra)</b><br>
+                        <b>(ID)</b> Karena paragraf ini memberikan alasan-alasan mengapa e-money itu bermasalah (butuh internet/baterai, risiko hacker).<br>
+                        <b>(EN)</b> <i>Because this paragraph gives reasons why e-money is problematic (needs internet/battery, risk of hackers).</i>
+                    </div>
+                </details>
+
+                <h3>Paragraf 4</h3>
+                <div class="analysis-text">
+                    <p>In conclusion, e-money has both advantages and disadvantages. It is fast and easy, but it also has risks like needing the internet and the danger of hackers. Therefore, it is important for us to be smart when using e-money. We should use it for its convenience, but we must always be careful to keep our accounts safe.</p>
+                </div>
+                <p><b>(ID)</b> Dan yang terakhir, paragraf ini adalah... <br><b>(EN)</b> <i>And finally, this paragraph is the...</i></p>
+                <details class="answer-reveal">
+                    <summary>Klik di sini untuk lihat jawaban / Click here to see the answer</summary>
+                    <div class="content">
+                        <b>Jawaban: Conclusion (Kesimpulan)</b><br>
+                        <b>(ID)</b> Karena paragraf ini merangkum argumen (cepat dan mudah TAPI berisiko) dan memberikan saran di akhir.<br>
+                        <b>(EN)</b> <i>Because this paragraph summarizes the arguments (fast and easy BUT risky) and gives a recommendation at the end.</i>
+                    </div>
+                </details>
+            </div>
+        </details>
+        
+        <!-- Section 4: Language Features -->
+        <details>
+            <summary>Ciri-Ciri Bahasa (Biar Makin Keren!) / Language Features (To Make it Cooler!) ✨</summary>
+            <div class="content">
+                 <ul>
+                    <li>
+                        <b>Simple Present Tense:</b> Menggunakan kata kerja bentuk sekarang karena membahas fakta. (e.g., *E-money **is** easy.*)
+                    </li>
+                     <li>
+                        <b>Persuasive Words (Kata-kata untuk Meyakinkan):</b> Menggunakan kata-kata seperti *should* (sebaiknya), *must* (harus), *important* (penting), *better* (lebih baik).
+                    </li>
+                    <li>
+                        <b>Logical Connectives (Kata Penghubung Logis):</b> Menggunakan kata seperti *First* (Pertama), *Second* (Kedua), *However* (Namun), *Therefore* (Oleh karena itu).
+                    </li>
+                </ul>
+            </div>
+        </details>
+        
+        <!-- Section 5: Quiz -->
+        <h2>Uji Pemahamanmu! / Test Your Understanding! 🤔</h2>
+        <div class="card">
+            <form id="quizForm">
+                <div class="quiz-question">
+                    <p><b>1. (ID) Apa tujuan utama dari teks argumentatif?</b><br><i>(EN) What is the main purpose of an argumentative text?</i></p>
+                    <div class="quiz-options"><label><input type="radio" name="q1" value="a"> a. To tell a funny story (Menceritakan kisah lucu)</label><label><input type="radio" name="q1" value="b"> b. To persuade the reader (Membujuk pembaca)</label><label><input type="radio" name="q1" value="c"> c. To describe an object (Mendeskripsikan objek)</label></div>
+                </div>
+                <div class="quiz-question">
+                    <p><b>2. (ID) Di bagian mana kamu menuliskan pendapat utamamu?</b><br><i>(EN) In which part do you write your main opinion?</i></p>
+                    <div class="quiz-options"><label><input type="radio" name="q2" value="a"> a. Conclusion (Kesimpulan)</label><label><input type="radio" name="q2" value="b"> b. Arguments (Argumen)</label><label><input type="radio" name="q2" value="c"> c. Thesis (Thesis)</label></div>
+                </div>
+                <div class="quiz-question">
+                    <p><b>3. (ID) Apa fungsi dari bagian "Arguments"?</b><br><i>(EN) What is the function of the "Arguments" section?</i></p>
+                    <div class="quiz-options"><label><input type="radio" name="q3" value="a"> a. To give reasons and evidence (Memberi alasan dan bukti)</label><label><input type="radio" name="q3" value="b"> b. To summarize the text (Meringkas teks)</label><label><input type="radio" name="q3" value="c"> c. To introduce the topic (Memperkenalkan topik)</label></div>
+                </div>
+                <div class="quiz-question">
+                    <p><b>4. (ID) Kata mana yang merupakan kata penghubung untuk urutan?</b><br><i>(EN) Which word is a connective for sequencing?</i></p>
+                    <div class="quiz-options"><label><input type="radio" name="q4" value="a"> a. Because (Karena)</label><label><input type="radio" name="q4" value="b"> b. First (Pertama)</label><label><input type="radio" name="q4" value="c"> c. But (Tetapi)</label></div>
+                </div>
+                <div class="quiz-question">
+                    <p><b>5. (ID) Kalimat "We should save water" menggunakan...</b><br><i>(EN) The sentence "We should save water" uses a...</i></p>
+                    <div class="quiz-options"><label><input type="radio" name="q5" value="a"> a. Modal verb (Kata kerja modal)</label><label><input type="radio" name="q5" value="b"> b. Simple Past Tense</label><label><input type="radio" name="q5" value="c"> c. Noun (Kata benda)</label></div>
+                </div>
+                <div class="quiz-question">
+                    <p><b>6. (ID) Apa tujuan dari "Conclusion"?</b><br><i>(EN) What is the purpose of the "Conclusion"?</i></p>
+                    <div class="quiz-options"><label><input type="radio" name="q6" value="a"> a. To give new arguments (Memberi argumen baru)</label><label><input type="radio" name="q6" value="b"> b. To ask a question (Mengajukan pertanyaan)</label><label><input type="radio" name="q6" value="c"> c. To summarize and restate the thesis (Meringkas dan menyatakan kembali thesis)</label></div>
+                </div>
+                <div class="quiz-question">
+                    <p><b>7. (ID) Manakah di bawah ini yang merupakan "Thesis statement" yang baik?</b><br><i>(EN) Which of the following is a good "Thesis statement"?</i></p>
+                    <div class="quiz-options"><label><input type="radio" name="q7" value="a"> a. Mobile legends is a game. (Mobile Legends adalah sebuah game.)</label><label><input type="radio" name="q7" value="b"> b. I think schools should start later because it helps students get more sleep and focus better. (Menurut saya, sekolah seharusnya mulai lebih siang karena membantu siswa lebih banyak tidur dan lebih fokus.)</label><label><input type="radio" name="q7" value="c"> c. What is your hobby? (Apa hobimu?)</label></div>
+                </div>
+                <div class="quiz-question">
+                    <p><b>8. (ID) Kalimat "E-money is convenient" menggunakan Tense apa?</b><br><i>(EN) What tense does the sentence "E-money is convenient" use?</i></p>
+                    <div class="quiz-options"><label><input type="radio" name="q8" value="a"> a. Simple Past Tense</label><label><input type="radio" name="q8" value="b"> b. Simple Present Tense</label><label><input type="radio" name="q8" value="c"> c. Future Tense</label></div>
+                </div>
+                <div class="quiz-question">
+                    <p><b>9. (ID) Kata "However" (Namun) digunakan untuk...</b><br><i>(EN) The word "However" is used to...</i></p>
+                    <div class="quiz-options"><label><input type="radio" name="q9" value="a"> a. Add an idea (Menambah ide)</label><label><input type="radio" name="q9" value="b"> b. Show a contrast (Menunjukkan pertentangan)</label><label><input type="radio" name="q9" value="c"> c. Give an example (Memberi contoh)</label></div>
+                </div>
+                <div class="quiz-question">
+                    <p><b>10. (ID) Kata lain untuk "tujuan" teks argumentatif adalah...</b><br><i>(EN) Another word for the "purpose" of an argumentative text is...</i></p>
+                    <div class="quiz-options"><label><input type="radio" name="q10" value="a"> a. To entertain (Menghibur)</label><label><input type="radio" name="q10" value="b"> b. To inform (Memberi informasi)</label><label><input type="radio" name="q10" value="c"> c. To persuade (Membujuk)</label></div>
+                </div>
+                
+                <button type="button" onclick="checkQuiz()" class="quiz-button">Cek Jawaban / Check Answers</button>
+            </form>
+            <div id="quiz-result"></div>
+        </div>
+
+    </div>
+
+    <script>
+        // JavaScript for Quiz
+        function checkQuiz() {
+            const answers = {
+                q1: 'b', q2: 'c', q3: 'a', q4: 'b', q5: 'a',
+                q6: 'c', q7: 'b', q8: 'b', q9: 'b', q10: 'c'
+            };
+            
+            let score = 0;
+            const totalQuestions = 10;
+            const form = document.getElementById('quizForm');
+            const resultDiv = document.getElementById('quiz-result');
+            let answeredAll = true;
+
+            for (let i = 1; i <= totalQuestions; i++) {
+                const question = form.querySelector(`input[name="q${i}"]:checked`);
+                if (question) {
+                    if (question.value === answers[`q${i}`]) {
+                        score++;
+                    }
+                } else {
+                    answeredAll = false;
+                }
+            }
+
+            if (!answeredAll) {
+                resultDiv.innerHTML = "(ID) Harap jawab semua pertanyaan! <br> (EN) <i>Please answer all questions!</i>";
+                resultDiv.style.backgroundColor = '#ffc107'; // Yellow for warning
+                resultDiv.style.color = '#333';
+                return;
+            }
+            
+            let feedback = `(ID) Skor Kamu: ${score} dari ${totalQuestions}. <br> (EN) <i>Your Score: ${score} out of ${totalQuestions}.</i><br>`;
+            
+            if (score >= 8) {
+                feedback += "(ID) Luar biasa! Kamu sudah paham. 👍 <br> (EN) <i>Excellent! You understand it well.</i> 👍";
+                resultDiv.style.backgroundColor = '#d4edda'; // Green for correct
+                resultDiv.style.color = '#155724';
+            } else {
+                feedback += "(ID) Coba lagi! Baca kembali materinya ya. 😊 <br> (EN) <i>Try again! Please review the material.</i> 😊";
+                resultDiv.style.backgroundColor = '#f8d7da'; // Red for incorrect
+                resultDiv.style.color = '#721c24';
+            }
+
+            resultDiv.innerHTML = feedback;
+        }
+    </script>
+
+</body>
+</html>
